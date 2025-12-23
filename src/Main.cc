@@ -5,8 +5,6 @@ int main()
 {
   MyClass agregator;
   int no = agregator.ReturnANumber();
-  printf("%d", no);
-  printf("Hello World\n");
-  agregator.SayHello(5);
+  printf("Hello World. The number is: %d\n", no);
   return 0;
 }
