@@ -1,11 +1,11 @@
-project(mmarket)
+project(myproj)
 
-add_library(mmarket_lib STATIC)
-target_sources(mmarket_lib PRIVATE MyClass.cc)
-target_include_directories(mmarket_lib PUBLIC .)
+add_library(myproj_lib STATIC)
+target_sources(myproj_lib PRIVATE MyClass.cc)
+target_include_directories(myproj_lib PUBLIC .)
 
-add_executable(mmarket Main.cc)
-target_sources(mmarket PRIVATE MyClass.cc)
+add_executable(myproj Main.cc)
+target_sources(myproj PRIVATE MyClass.cc)
 
 include(FetchContent)
 FetchContent_Declare(

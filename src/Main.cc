@@ -3,8 +3,8 @@
 
 int main()
 {
-  MyClass agregator;
-  int no = agregator.ReturnANumber();
+  MyClass instance;
+  int no = instance.ReturnANumber();
   printf("Hello World. The number is: %d\n", no);
   return 0;
 }

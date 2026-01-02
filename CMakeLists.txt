@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.23)
 
-project(mmarket)
+project(myproj)
 include(CTest)
 enable_testing()
 add_subdirectory(src)
